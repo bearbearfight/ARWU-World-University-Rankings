@@ -51,7 +51,7 @@ def main():
 
         # 构建SQL插入语句
         sql = """
-        INSERT INTO school_ranking_arwu_chinese (
+        INSERT INTO school (
             id, school_id, ranking, ranking_text, prev_ranking,
             school_cname, school_ename, year_time, update_date_time,
             quality_students, cultivation_results, scientific_research_scale,
@@ -201,4 +201,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
